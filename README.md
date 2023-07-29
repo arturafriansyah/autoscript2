@@ -1,22 +1,4 @@
-### ORDER AUTOSCRIPT/IZIN IP
-- PRICELIST
-```
-HARGA SEWA AUTOSCRIPT 
-1 Bulan : 15K
-2 Bulan : 25K
-3 Bulan : 35K
 
-1 Tahun : 75K
-LIFETIME: 150K
-```
-• HUBUNGI:
-- WhatsApp: [KLIK DISINI](https://wa.me/081215360549)
-- Telegram: [KLIK DISINI](https://t.me/YSSHStore)
-
-### PERHATIAN
-
-
-- Jika mendapatkan error pada servis dalam jangka panjang, bisa restart servis yang dead.
 
 ### INSTALL SCRIPT
 <pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://www.yogztrx.site/yogzasu.sh && chmod +x yogzasu.sh && screen -S install ./yogzasu.sh</code></pre>
@@ -63,10 +45,3 @@ LIFETIME: 150K
 - Always Use HTTPS : OFF
 - UNDER ATTACK MODE : OFF
 ```
-### STATUS
-`UPDATED`
-
-### Lisensi
-Repository ini dilindungi oleh lisensi [PAK POLISI](https://mit-license.org/)
-
-BY: YogzVPN | & Team 【YSSH】
