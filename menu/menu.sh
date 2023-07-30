@@ -396,7 +396,7 @@ case $opt in
 17) clear ; restart ;;
 18) clear ; add-host ;;
 19) clear ; certv2ray ;;
-20) clear ; wget https://wokszxs.biz.id/update.sh && chmod +x update.sh && ./update.sh && rm -rf /root/update.sh ;;
+20) clear ;
 21) clear ; clearcache ;;
 22) clear ; menu-set ;;
 23) clear ; mbot ;;
