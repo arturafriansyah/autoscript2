@@ -52,6 +52,6 @@ oth=$(cat /tmp/other.txt | sort | uniq | nl)
 echo "other";
 echo "$oth";
 echo "------------------------------------";
-echo "Script Premium By WokszXD"
+echo "Gak Ada Script Premium Semua Sama Aja"
 rm -rf /tmp/other.txt
 
