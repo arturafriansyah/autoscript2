@@ -10,7 +10,6 @@
 ### FITUR TAMBAHAN
 - Atur Limit Quota Per Akun
 - SlowDNS & SSH UDP
-- Xray Core by [@dharak36](https://github.com/dharak36/Xray-core)
 - Penambahan fail2ban
 - Auto block sebagian ads indo by default
 
