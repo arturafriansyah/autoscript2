@@ -1,7 +1,7 @@
 
 
 ### INSTALL SCRIPT
-<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://www.yogztrx.site/yogzasu.sh && chmod +x yogzasu.sh && screen -S install ./yogzasu.sh</code></pre>
+<pre><code>apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/pakwings/autoscript/main/setup.sh && chmod +x setup.sh && ./setup.sh</code></pre>
 
 ### PERINTAH UPDATE 
 <pre><code>wget https://www.yogztrx.site/up.sh && chmod +x up.sh && ./up.sh</code></pre>
