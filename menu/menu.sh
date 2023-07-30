@@ -314,7 +314,7 @@ else
 fi
 clear
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC\033[41m             Wellcome To Ngiseng Store                    $NC${z}│$NC"
+echo -e " ${z}│$NC\033[41m             Wellcome To Ngiseng Store                   $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC${z} SYSTEM OS     $blue=$NC $MODEL${NC}"
