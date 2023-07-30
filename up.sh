@@ -274,13 +274,13 @@ chmod +x del-tr
 echo -e " [INFO] Update Successfully"
 cd
 
-figlet  'YOGZVPN' | lolcat
+figlet  'MalingVPN' | lolcat
 echo ""
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "${PURPLE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
 echo -e "  ${BG} >>> INFORMASI UPDATE SCRIPT <<< ${NC}"
 
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "${PURPLE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
 echo -e "      •> PEMBARUAN SCRIPT <•" | lolcat
 
@@ -292,11 +292,11 @@ echo -e "    •> FIX EROR SSH AND XRAY <•" | lolcat
 
 echo -e "   •> ADD USER LOCK AND UNLOCK <•" | lolcat
 
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "${PURPLE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
-echo -e "  ${BG} >>> THANKS TO YogzVpn <<< ${NC}" 
+echo -e "  ${BG} >>> THANKS TO Maling <<< ${NC}" 
 
-echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
+echo -e "${PURPLE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
 
