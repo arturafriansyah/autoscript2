@@ -5,10 +5,10 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 apt install jq curl -y
 sub=$(</dev/urandom tr -dc a-z | head -c4)
-DOMAIN=yogzvpn.cloud
-SUB_DOMAIN=${sub}.yogzvpn.cloud
+DOMAIN=tunneling.me
+SUB_DOMAIN=${sub}.tunneling.me
 CF_ID=newagoez@gmail.com
-CF_KEY=adaba81589e82448fa7166808ce9f1abd44ff
+CF_KEY=61dcf048264d5f9a47b379eecffb72d3bb5df
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
 echo "Updating DNS for ${SUB_DOMAIN}..."
