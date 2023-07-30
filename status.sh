@@ -132,7 +132,7 @@ clear;clear;clear
 
 echo -e "${PURPLE}----------------------------------------------------------${NC}"
 echo -e "             ${YELLOW}(${NC}${GREEN} STATUS SERVICE INFORMATION ${NC}${YELLOW})${NC}"
-echo -e "           OWNER : ${GREEN} BTR ${NC}${YELLOW}(${NC} ${GREEN} SC BY Maling  ${NC}${YELLOW})${NC}"
+echo -e "           OWNER : ${GREEN} Ntah ${NC}${YELLOW}(${NC} ${GREEN} SC BY Maling  ${NC}${YELLOW})${NC}"
 echo -e "       © Copyright By Nyolong ${YELLOW}(${NC} 2022-2023 ${YELLOW})${NC}"
 echo -e "${PURPLE}----------------------------------------------------------${NC}"
 echo ""
