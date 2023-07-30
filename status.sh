@@ -130,11 +130,11 @@ clear
 clear && clear && clear
 clear;clear;clear
 
-echo -e "${YELLOW}----------------------------------------------------------${NC}"
+echo -e "${PURPLE}----------------------------------------------------------${NC}"
 echo -e "             ${YELLOW}(${NC}${GREEN} STATUS SERVICE INFORMATION ${NC}${YELLOW})${NC}"
-echo -e "           OWNER : ${GREEN} BTR ${NC}${YELLOW}(${NC} ${GREEN} SC BY WokszXD  ${NC}${YELLOW})${NC}"
-echo -e "       © Copyright By WokszXD ${YELLOW}(${NC} 2022-2023 ${YELLOW})${NC}"
-echo -e "${YELLOW}----------------------------------------------------------${NC}"
+echo -e "           OWNER : ${GREEN} BTR ${NC}${YELLOW}(${NC} ${GREEN} SC BY Maling  ${NC}${YELLOW})${NC}"
+echo -e "       © Copyright By Nyolong ${YELLOW}(${NC} 2022-2023 ${YELLOW})${NC}"
+echo -e "${PURPLE}----------------------------------------------------------${NC}"
 echo ""
 echo -e "${RED_BG}                     Sytem Information                    ${NC}"
 echo -e "Sever Uptime        = $( uptime -p  | cut -d " " -f 2-10000 ) "
