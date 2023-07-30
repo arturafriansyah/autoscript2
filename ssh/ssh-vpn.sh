@@ -20,7 +20,7 @@ commonname=none
 email=adamspx17@gmail.com
 
 # simple password minimal
-curl -sS https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
+curl -sS https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
 chmod +x /etc/pam.d/common-password
 
 # go to root
@@ -128,13 +128,13 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/nginx.conf"
 mkdir -p /home/vps/public_html
 /etc/init.d/nginx restart
 
 # install badvpn
 cd
-wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/newudpgw"
+wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/newudpgw"
 chmod +x /usr/bin/badvpn-udpgw
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500' /etc/rc.local
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500' /etc/rc.local
@@ -243,7 +243,7 @@ echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
 # banner /etc/issue.net
 sleep 1
 echo -e "[ ${green}INFO$NC ] Settings banner"
-wget -q -O /etc/issue.net "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/issue.net"
+wget -q -O /etc/issue.net "https://raw.githubusercontent.com/pakwings/autoscript/main/issue.net"
 chmod +x /etc/issue.net
 echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
@@ -271,66 +271,66 @@ netfilter-persistent reload
 # download script
 cd /usr/bin
 # Bot panel
-wget -O add-bot-panel "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/add-bot-panel.sh"
-wget -O hapus-bot "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/hapus-bot.sh"
-wget -O stop-bot "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/stop-bot.sh"
-wget -O restart-bot "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/restart-bot.sh"
+wget -O add-bot-panel "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/add-bot-panel.sh"
+wget -O hapus-bot "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/hapus-bot.sh"
+wget -O stop-bot "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/stop-bot.sh"
+wget -O restart-bot "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/restart-bot.sh"
 # menu
-wget -O menu "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu.sh"
-wget -O menu-trial "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu-trial.sh"
-wget -O menu-vmess "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu-vmess.sh"
-wget -O menu-vless "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu-vless.sh"
-wget -O running "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/running.sh"
-wget -O clearcache "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/clearcache.sh"
-wget -O menu-trgo "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu-trgo.sh"
-wget -O menu-trojan "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu-trojan.sh"
-wget -O shadowsocks "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/shadowsocks.sh"
+wget -O menu "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu.sh"
+wget -O menu-trial "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu-trial.sh"
+wget -O menu-vmess "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu-vmess.sh"
+wget -O menu-vless "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu-vless.sh"
+wget -O running "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/running.sh"
+wget -O clearcache "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/clearcache.sh"
+wget -O menu-trgo "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu-trgo.sh"
+wget -O menu-trojan "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu-trojan.sh"
+wget -O shadowsocks "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/shadowsocks.sh"
 
 # menu ssh ovpn
-wget -O menu-ssh "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu-ssh.sh"
-wget -O usernew "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/usernew.sh"
-wget -O trial "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/trial.sh"
-wget -O renew "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/renew.sh"
-wget -O hapus "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/hapus.sh"
-wget -O cek "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/cek.sh"
-wget -O member "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/member.sh"
-wget -O delete "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/delete.sh"
-wget -O autokill "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/autokill.sh"
-wget -O ceklim "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/ceklim.sh"
-wget -O tendang "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/tendang.sh"
-wget -O user-lock "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/user-lock.sh"
-wget -O user-unlock "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/user-unlock.sh"
+wget -O menu-ssh "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu-ssh.sh"
+wget -O usernew "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/trial.sh"
+wget -O renew "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/renew.sh"
+wget -O hapus "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/hapus.sh"
+wget -O cek "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/cek.sh"
+wget -O member "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/member.sh"
+wget -O delete "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/delete.sh"
+wget -O autokill "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/autokill.sh"
+wget -O ceklim "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/ceklim.sh"
+wget -O tendang "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/tendang.sh"
+wget -O user-lock "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/user-lock.sh"
+wget -O user-unlock "https://raw.githubusercontent.com/pakwings/autoscriptmain/ssh/user-unlock.sh"
 
 # menu system
-wget -O menu-set "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu-set.sh"
-wget -O menu-domain "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu-domain.sh"
-wget -O add-host "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/add-host.sh"
-wget -O port-change "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/port/port-change.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/certv2ray.sh"
-wget -O menu-webmin "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu-webmin.sh"
-wget -O speedtest "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/speedtest_cli.py"
-wget -O about "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/about.sh"
-wget -O auto-reboot "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/auto-reboot.sh"
-wget -O restart "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/restart.sh"
-wget -O bw "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/bw.sh"
-wget -O up "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/up.sh"
+wget -O menu-set "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu-set.sh"
+wget -O menu-domain "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu-domain.sh"
+wget -O add-host "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/add-host.sh"
+wget -O port-change "https://raw.githubusercontent.com/pakwings/autoscript/main/port/port-change.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/certv2ray.sh"
+wget -O menu-webmin "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu-webmin.sh"
+wget -O speedtest "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/speedtest_cli.py"
+wget -O about "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/about.sh"
+wget -O auto-reboot "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/auto-reboot.sh"
+wget -O restart "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/restart.sh"
+wget -O bw "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/bw.sh"
+wget -O up "https://raw.githubusercontent.com/pakwings/autoscript/main/up.sh"
 
 # change port
-wget -O port-ssl "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/port/port-ssl.sh"
-wget -O port-ovpn "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/port/port-ovpn.sh"
+wget -O port-ssl "https://raw.githubusercontent.com/pakwings/autoscript/main/port/port-ssl.sh"
+wget -O port-ovpn "https://raw.githubusercontent.com/pakwings/autoscript/main/port/port-ovpn.sh"
 
 
-wget -O xp "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/xp.sh"
-wget -O acs-set "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/acs-set.sh"
+wget -O xp "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/xp.sh"
+wget -O acs-set "https://raw.githubusercontent.com/pakwings/autoscript/main/acs-set.sh"
 
-wget -O sshws "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh/sshws.sh"
-wget -O status "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/status.sh"
-wget -O menu-backup "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/menu/menu-backup.sh"
-wget -O backup "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/backup/backup.sh"
-wget -O restore "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/backup/restore.sh"
-wget -O set-br "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/backup/set-br.sh"
+wget -O sshws "https://raw.githubusercontent.com/pakwings/autoscript/main/ssh/sshws.sh"
+wget -O status "https://raw.githubusercontent.com/pakwings/autoscript/main/status.sh"
+wget -O menu-backup "https://raw.githubusercontent.com/pakwings/autoscript/main/menu/menu-backup.sh"
+wget -O backup "https://raw.githubusercontent.com/pakwings/autoscript/main/backup/backup.sh"
+wget -O restore "https://raw.githubusercontent.com/pakwings/autoscript/main/backup/restore.sh"
+wget -O set-br "https://raw.githubusercontent.com/pakwings/autoscript/main/backup/set-br.sh"
 
-wget -O jam "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/jam.sh"
+wget -O jam "https://raw.githubusercontent.com/pakwings/autoscript/main/jam.sh"
 
 chmod +x *
 chmod +x add-bot-panel
