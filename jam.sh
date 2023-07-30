@@ -19,7 +19,7 @@ gg="AM"
 fi
 
 echo -e "${BICyan}┌─────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan}│ $NC$COLBG1                • AUTO REBOOT •                ${BICyan} │$NC"
+echo -e "${BICyan}│ $NC$COLBG1           • AUTO REBOOT •                ${BICyan} │$NC"
 echo -e "${BICyan}└─────────────────────────────────────────────────┘${NC}"
 echo -e "
     ${green}Example :${NC}
