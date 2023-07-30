@@ -7,7 +7,7 @@ apt install jq curl -y
 sub=$(</dev/urandom tr -dc a-z | head -c4)
 DOMAIN=yogzvpn.cloud
 SUB_DOMAIN=${sub}.yogzvpn.cloud
-CF_ID=ysshvpn@gmail.com
+CF_ID=newagoez@gmail.com
 CF_KEY=adaba81589e82448fa7166808ce9f1abd44ff
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
