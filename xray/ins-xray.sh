@@ -66,8 +66,8 @@ chmod +x /root/.acme.sh/acme.sh
 
 # install nginx
 mkdir -p /home/vps/public_html
-wget -q -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/vps.conf"
-wget -q -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/vps.conf"
+wget -q -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/vps.conf"
+wget -q -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/vps.conf"
 
 # nginx renew ssl
 echo -n '#!/bin/bash
@@ -610,43 +610,43 @@ systemctl restart trojan-go
 
 cd /usr/bin/
 # vmess
-wget -O add-ws "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/add-ws.sh" && chmod +x add-ws
-wget -O trialvmess "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/trialvmess.sh" && chmod +x trialvmess
-wget -O renew-ws "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/renew-ws.sh" && chmod +x renew-ws
-wget -O del-ws "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/del-ws.sh" && chmod +x del-ws
-wget -O cek-ws "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/cek-ws.sh" && chmod +x cek-ws
-wget -O usage-akun-xray-vmess "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/usage-akun-xray-vmess.sh" && chmod +x usage-akun-xray-vmess
+wget -O add-ws "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/add-ws.sh" && chmod +x add-ws
+wget -O trialvmess "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/trialvmess.sh" && chmod +x trialvmess
+wget -O renew-ws "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/renew-ws.sh" && chmod +x renew-ws
+wget -O del-ws "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/del-ws.sh" && chmod +x del-ws
+wget -O cek-ws "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/cek-ws.sh" && chmod +x cek-ws
+wget -O usage-akun-xray-vmess "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/usage-akun-xray-vmess.sh" && chmod +x usage-akun-xray-vmess
 
 # vless
-wget -O add-vless "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/add-vless.sh" && chmod +x add-vless
-wget -O trialvless "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/trialvless.sh" && chmod +x trialvless
-wget -O renew-vless "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/renew-vless.sh" && chmod +x renew-vless
-wget -O del-vless "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/del-vless.sh" && chmod +x del-vless
-wget -O cek-vless "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/cek-vless.sh" && chmod +x cek-vless
-wget -O usage-akun-xray-vless "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/usage-akun-xray-vless.sh" && chmod +x usage-akun-xray-vless
+wget -O add-vless "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/add-vless.sh" && chmod +x add-vless
+wget -O trialvless "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/trialvless.sh" && chmod +x trialvless
+wget -O renew-vless "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/renew-vless.sh" && chmod +x renew-vless
+wget -O del-vless "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/del-vless.sh" && chmod +x del-vless
+wget -O cek-vless "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/cek-vless.sh" && chmod +x cek-vless
+wget -O usage-akun-xray-vless "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/usage-akun-xray-vless.sh" && chmod +x usage-akun-xray-vless
 
 # trojan
-wget -O add-tr "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/add-tr.sh" && chmod +x add-tr
-wget -O trialtrojan "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/trialtrojan.sh" && chmod +x trialtrojan
-wget -O del-tr "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/del-tr.sh" && chmod +x del-tr
-wget -O renew-tr "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/renew-tr.sh" && chmod +x renew-tr
-wget -O cek-tr "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/cek-tr.sh" && chmod +x cek-tr
-wget -O usage-akun-xray-trojan "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/usage-akun-xray-trojan.sh" && chmod +x usage-akun-xray-trojan
+wget -O add-tr "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/add-tr.sh" && chmod +x add-tr
+wget -O trialtrojan "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/trialtrojan.sh" && chmod +x trialtrojan
+wget -O del-tr "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/del-tr.sh" && chmod +x del-tr
+wget -O renew-tr "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/renew-tr.sh" && chmod +x renew-tr
+wget -O cek-tr "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/cek-tr.sh" && chmod +x cek-tr
+wget -O usage-akun-xray-trojan "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/usage-akun-xray-trojan.sh" && chmod +x usage-akun-xray-trojan
 
 # trojan go
-wget -O addtrgo "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/addtrgo.sh" && chmod +x addtrgo
-wget -O trialtrojango "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/trialtrojango.sh" && chmod +x trialtrojango
-wget -O deltrgo "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/deltrgo.sh" && chmod +x deltrgo
-wget -O renewtrgo "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/renewtrgo.sh" && chmod +x renewtrgo
-wget -O cektrgo "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/cektrgo.sh" && chmod +x cektrgo
+wget -O addtrgo "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/addtrgo.sh" && chmod +x addtrgo
+wget -O trialtrojango "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/trialtrojango.sh" && chmod +x trialtrojango
+wget -O deltrgo "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/deltrgo.sh" && chmod +x deltrgo
+wget -O renewtrgo "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/renewtrgo.sh" && chmod +x renewtrgo
+wget -O cektrgo "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/cektrgo.sh" && chmod +x cektrgo
 
 # shadowsock
-wget -O add-ss "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/add-ss.sh" && chmod +x add-ss
-wget -O triall-ss "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/triall-ss.sh" && chmod triall-ss
-wget -O del-ss "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/del-ss.sh" && chmod +x del-ss
-wget -O renew-ss "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/renew-ss.sh" && chmod +x renew-ss
-wget -O cek-ss "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/cek-ss.sh" && chmod +x cek-ss
-wget -O usage-akun-xray-ss "https://raw.githubusercontent.com/YOGZKNTL/scupdate/main/xray/usage-akun-xray-ss.sh" && chmod +x usage-akun-xray-ss
+wget -O add-ss "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/add-ss.sh" && chmod +x add-ss
+wget -O triall-ss "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/triall-ss.sh" && chmod triall-ss
+wget -O del-ss "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/del-ss.sh" && chmod +x del-ss
+wget -O renew-ss "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/renew-ss.sh" && chmod +x renew-ss
+wget -O cek-ss "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/cek-ss.sh" && chmod +x cek-ss
+wget -O usage-akun-xray-ss "https://raw.githubusercontent.com/pakwings/autoscript/main/xray/usage-akun-xray-ss.sh" && chmod +x usage-akun-xray-ss
 
 sleep 1
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
