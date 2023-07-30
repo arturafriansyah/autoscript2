@@ -25,7 +25,7 @@ fi
 # Mod By SL
 # ==================================================
 # Link Hosting Kalian
-woks="raw.githubusercontent.com/YOGZKNTL/scupdate/main/ssh"
+woks="raw.githubusercontent.com/pakwings/autoscript/main/ssh"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
