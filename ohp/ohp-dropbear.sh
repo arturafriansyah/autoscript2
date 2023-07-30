@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="autoscript"
+GitUser="pakwings"
 #Direct Proxy Squid For OpenVPN TCP
 RED='\e[1;31m'
 GREEN='\e[0;32m'
@@ -21,7 +21,7 @@ Port_OHP='8787';
 
 #Installing ohp Server
 cd 
-wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/autoscript/main/ohp/ohp"
+wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/pakwings/main/ohp/ohp"
 chmod +x /usr/local/bin/ohp
 
 #Buat File OpenVPN TCP OHP
