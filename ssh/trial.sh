@@ -49,7 +49,7 @@ PID=`ps -ef |grep -v grep | grep sshws |awk '{print $2}'`
 
 if [[ ! -z "${PID}" ]]; then
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e "\E[40;1;37m        𝙒𝙤𝙠𝙨𝙯𝙓𝘿 𝗩𝗣𝗡 𝗧𝗨𝗡𝗡𝗘𝗟𝗜𝗡𝗚           \E[0m" | tee -a /etc/log-create-user.log
+echo -e "\E[40;1;37m        NGISENG 𝗩𝗣𝗡 𝗧𝗨𝗡𝗡𝗘𝗟𝗜𝗡𝗚           \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Username    : $Login" | tee -a /etc/log-create-user.log
 echo -e "Password    : $Pass" | tee -a /etc/log-create-user.log
