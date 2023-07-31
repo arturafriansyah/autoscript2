@@ -348,7 +348,7 @@ echo -e "${z} │$NC    ${CYAN}HARI ini${NC}: ${r}$ttoday$NC    ${CYAN}KEMARIN${
 echo -e "${z} ╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e ""
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│${NC}${z}Version    ${NC}= ${PURPLE} NGAPAIN SEWA MALING AJA GURIH "
+echo -e " ${z}│${NC}${z}Version ${NC}= ${PURPLE} NGAPAIN SEWA SC MALING AJA GURIH "
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo " "
 read -p " Select menu : " opt
